@@ -30,6 +30,10 @@ def won?(board)
   else
     false
   end
+
+  if draw?(board) == true
+    return false
+  end
 end
 end
 
